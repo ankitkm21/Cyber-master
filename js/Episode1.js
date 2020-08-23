@@ -1,6 +1,7 @@
 class Episode1{
     constructor(){}
     display(){
+        body.style.background = "white";
                var intro = createElement("h2");
                 intro.html("Season1:Episode1:Gmail Hacked!");
                 intro.position(500, 400);
